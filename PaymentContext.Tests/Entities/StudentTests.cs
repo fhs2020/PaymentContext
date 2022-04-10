@@ -1,24 +1,26 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Flunt.Notifications;
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using PaymentContext.Domain.Entities;
+using PaymentContext.Domain.ValueObjects;
 
 namespace PaymentContext.Tests.Entities
 {
     [TestClass]
-    public class StudentTests
+    public class StudentTests : Notifiable
     {
         [TestMethod]
         public void AddSubscriptionTest()
         {
-            //var subscription = new Subscription(null);
-            //var student = new Student ("Flavio", "Sousa", "2656530212", "fhs@gmail.com");
-            //student.AddSubscription(subscription);
+
+
         }
 
         [TestMethod]
         public void TestMethod2()
         {
-            
+
 
         }
     }
